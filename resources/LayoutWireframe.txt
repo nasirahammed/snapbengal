@@ -1,0 +1,69 @@
+Ronju Site
+=============
+
+
+template custom look like rice ref.
+right side a news ticker & add space
+testimonial link
+http://riceinstitute.org/presentation/what-does-religion-have-to-do-with-demand-for-sanitation/ -> our works
+
+
+Reference Sites
+==================
+Real:
+*****
+http://www.smilefoundationindia.org/
+https://www.savethechildren.in/
+www.cry.org
+https://www.helpageindia.org/
+https://www.akshayapatra.org/
+https://www.planindia.org/
+
+Theme:
+*****
+https://www.templatemonster.com/demo/59556.html
+
+
+
+
+Header
+=======
+1) Slogan 
+2) Social Icons
+3) Logo Menu
+4) Search
+5) Call us: +91 xxxxxxxxxx
+
+Banner
+========
+1) Slider 
+2) Caption
+3) Lead(Call To Action)
+
+Main Content
+=============
+1)  Our Works / Our Impact Last Year / How we help children / Donate To The Following Causes
+2)  Events & Updates
+3)  Gallery / Photos & Videos
+4)  Testimonial
+5)  News Ticker & Ad Space
+6)  Featured Research
+7)  Latest Visualizations
+8)  Our Mission
+9)  View our Report 2017
+10) Awards/Recognitions
+11) Donate/ Want to be a Volentaree? / Fundraise With Us
+12) Accereditation/Empanelment
+13) Our Projects
+14) Where Your Money Goes?
+15) Blogs
+16) Honour Roll
+16) Ngo locator / Marcketplace
+
+Footer
+=======
+1) Quick Links
+2) Sort Desc.(About)
+3) Subscribe
+4) Social
+
