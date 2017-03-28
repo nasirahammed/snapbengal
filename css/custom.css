@@ -1,0 +1,324 @@
+/*Custom Fonts */
+
+@font-face {
+    font-family: 'hanskendrick-regular';
+    src: url('../fonts/hanskendrick-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/hanskendrick-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/hanskendrick-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/hanskendrick-regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/hanskendrick-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/hanskendrick-regular.svg#hanskendrickRegularSvg') format('svg');
+    /* Legacy iOS */
+}
+
+body {
+    color: #333;
+    /*font-family: 'Muli', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+/*Starts General Css*/
+
+.main-title {
+    font-family: 'hanskendrick-regular';
+    font-size: 7rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.fz-52 {
+    font-size: 52px;
+}
+
+.fz-48 {
+    font-size: 48px;
+}
+
+.fz-42 {
+    font-size: 42px;
+}
+
+.fz-30 {
+    font-size: 30px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-21 {
+    font-size: 21px;
+}
+
+.fz-18 {
+    font-size: 18px;
+}
+
+.main-title {
+    font-family: 'hanskendrick-regular';
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.main-title span {
+    color: #00a0ff;
+}
+
+
+/*Ends General Css*/
+
+
+/*Starts Header Css*/
+
+.slogan {
+    background: #303e9f;
+    color: #ffffff;
+    display: none;
+    font-size: 18px;
+    overflow: hidden;
+    padding: 40px 0;
+    position: relative;
+    z-index: 5;
+}
+
+.slogan p {
+  margin: 0 60px;
+  text-align: center;
+}
+
+.slogan .fa {
+    color: #3f51b5;
+    font-size: 90px;
+    position: absolute;
+    top: 29px;
+    z-index: -1;
+}
+
+.slogan .fa.fa-quote-left {
+    left: 0;
+}
+
+.slogan .fa.fa-quote-right {
+    right: 0;
+}
+
+.slogan-toggle {
+    bottom: 0;
+    display: table;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -8px;
+    z-index: 1000;
+}
+
+.slogan-toggle a {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    width: 20px;
+}
+
+.header .top .right .social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .top .right .social ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header .top .right .social ul li:last-child {
+    margin-right: 0;
+}
+
+.header .top .right .social ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header .top {
+    background: #311b92;
+    padding: 20px 0;
+}
+
+.header .top .left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .top .left ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header .top .left ul li:last-child {
+    margin-right: 0;
+}
+
+.header .top .left ul li span {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.header .top .right .social ul li.search-open {
+    position: relative;
+}
+
+.header .top .right .social ul li.search-open .search-box {
+    background: #2a2a2b;
+    display: none;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    width: 270px;
+    z-index: 200;
+}
+
+.header .top .right .social ul li.search-open .search-box .search-close {
+    margin-bottom: 15px;
+}
+
+.header .top .right .social ul li.search-open .search-box input {
+    border: 0 none;
+    border-radius: 0;
+    height: 40px;
+}
+
+.header .top .right .social ul li.search-open .search-box input[type="submit"] {
+    background: #b71c1c;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+/*Ends Header Css*/
+
+
+/*Starts Banner Css*/
+
+.banner {
+    position: relative;
+}
+
+.banner .slider .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner .intro {
+    background: #303030;
+    color: #fff;
+    font-family: "hanskendrick-regular";
+    margin-top: -40px;
+    padding: 20px 0 0;
+}
+
+.banner .intro .intro-bg {
+    background: rgba(0, 0, 0, 0) url("../img/banner-intro-bg.png") no-repeat scroll center bottom;
+    height: 45px;
+}
+
+.banner .search {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 230px;
+    font-family: 'hanskendrick-regular';
+    max-width: 1170px;
+    padding: 13px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+.banner .search .form-group {
+    margin: 0;
+}
+
+.banner .search .form-group .form-control,
+.banner .search .form-group input.btn {
+    border-radius: 0;
+}
+
+.banner .search .form-group select {
+    background: #ffffff url("../img/search-caret-icon.png") no-repeat scroll 90% 20px;
+    font-size: 20px;
+    height: 50px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.banner .search .form-group input.btn {
+    background-color: #027cc5;
+    border-color: #027cc5;
+    font-size: 20px;
+    height: 50px;
+    line-height: 35px;
+}
+
+.banner .caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    max-width: 780px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    z-index: 10000;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.banner .caption h1 {
+    color: #fff100;
+    font-family: "hanskendrick-regular";
+    margin: 0 0 10px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.banner .caption h1 span {
+    color: #027CC5;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.banner .caption h4,
+.banner .caption h5 {
+    font-family: 'hanskendrick-regular';
+    margin: 0 0 10px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.banner .owl-pagination .owl-page.active span {
+    background: #fff;
+}
+
+
+/*Ends Banner Css*/
