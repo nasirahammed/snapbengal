@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="slogan-toggle">
-            <a  href="">
+            <a href="">
                 <span class="fa fa-chevron-up"></span>
             </a>
         </div>
@@ -123,6 +123,49 @@
                 </div>
             </div>
         </div>
+        <div class="main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="left">
+                            <div class="logo">
+                                <img class="img-responsive" src="img/logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-11">
+                        <div class="right">
+                            <nav class="navigation">
+                                <ul>
+                                    <li class="active"><a href="">Address Book</a></li>
+                                    <li class="sub-menu">
+                                        <a href="">Govt. Schemes</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Reservation</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Religious Matter</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Useful Link</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Enquiry</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!--Ends Header Section-->
 
@@ -136,14 +179,12 @@
                 <div class="container">
                     <div class="caption">
                         <h1 class="fz-48">
-                            1.4 km from Ballygunge Phari
+                            Sanitation
                         </h1>
                         <h5 class="fz-18">
-                            Fully AC 3 & 4 BHK Lifestyle Apartments
+                            Exploring the causes and consequences of widespread open defecation in India
                         </h5>
-                        <h4 class="fz-42">
-                            1.07 cr onwards
-                        </h4>
+                        <a href="" class="btn btn-danger">Read More</a>
                     </div>
                 </div>
                 <!-- Ends Caption Section-->
@@ -154,14 +195,15 @@
                 <div class="container">
                     <div class="caption">
                         <h1 class="fz-48">
-                            2 km from NewTown Bus Stop
+                            Social Inequality
                         </h1>
                         <h5 class="fz-18">
-                            Fully AC 3 & 4 BHK Lifestyle Apartments
+                            Understanding how social discrimination impacts child and maternal health in rural India
                         </h5>
                         <h4 class="fz-42">
                             1.5 cr onwards
                         </h4>
+                        <a href="" class="btn btn-danger">Read More</a>
                     </div>
                 </div>
                 <!-- Ends Caption Section-->
@@ -172,14 +214,12 @@
                 <div class="container">
                     <div class="caption">
                         <h1 class="fz-48">
-                            1 km from Howrah Station
+                            Maternal Health
                         </h1>
                         <h5 class="fz-18">
-                            Fully AC 3 & 4 BHK Lifestyle Apartments
+                            Exploring challenges and policy responses to adequate nutrition in motherhood to improve child health
                         </h5>
-                        <h4 class="fz-42">
-                            3 cr onwards
-                        </h4>
+                        <a href="" class="btn btn-danger">Read More</a>
                     </div>
                 </div>
                 <!-- Ends Caption Section-->
@@ -190,14 +230,12 @@
                 <div class="container">
                     <div class="caption">
                         <h1 class="fz-48">
-                            3 km from Esplanade
+                            Environment
                         </h1>
                         <h5 class="fz-18">
-                            Fully AC 3 & 4 BHK Lifestyle Apartments
+                            Understanding the health consequences of climate change and air pollution, and exploring policy responses.
                         </h5>
-                        <h4 class="fz-42">
-                            4 cr onwards
-                        </h4>
+                        <a href="" class="btn btn-danger">Read More</a>
                     </div>
                 </div>
                 <!-- Ends Caption Section-->
@@ -228,7 +266,8 @@
         $(document).ready(function () {
             $(".banner .slider").owlCarousel({
                 autoPlay: 2000, //Set AutoPlay to 3 seconds
-                navigation: false, // Show next and prev buttons
+                navigation: true, // Show next and prev buttons
+                pagination: false,
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 items: 1,
