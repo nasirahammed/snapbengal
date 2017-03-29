@@ -680,3 +680,77 @@ body {
 
 
 /*Ends Our Works Css*/
+
+
+/*Starts Events List Css*/
+
+.events-list {
+    background: #dcdcdc;
+}
+
+.events-list-container {
+  margin-bottom: 50px;
+}
+
+.events-list .events-list-container .event-date-row {
+  clear: both;
+  height: 180px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.events-list .events-list-container .eventdate {
+  background: #1b5e20;
+  color: #ffffff;
+  float: left;
+  height: 180px;
+  overflow: hidden;
+  padding-top: 40px;
+  text-align: center;
+  width: 30%;
+}
+
+.events-list .events-list-container .eventtitlelocation {
+  background: #ffffff;
+  float: right;
+  height: 180px;
+  overflow: hidden;
+  padding: 20px;
+  width: 70%;
+}
+
+.events-list .events-list-container .eventdate strong {
+  border-bottom: 2px solid #ffffff;
+  display: inline-block;
+  font-size: 36px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.events-list .events-list-container .eventdate span {
+  display: block;
+}
+
+.events-list .events-list-container .eventtitlelocation .eventtitle {
+    color: #ffffff;
+}
+
+.events-list .events-list-container .eventtitlelocation .eventtitle a {
+  color: #ed1556;
+  text-decoration: none;
+}
+
+.events-list .events-list-container .eventtitlelocation .eventtiming,
+.events-list .events-list-container .eventtitlelocation .eventlocation {
+    margin-top: 10px;
+}
+
+.events-list .events-list-container .eventtitlelocation .eventtiming i,
+.events-list .events-list-container .eventtitlelocation .eventlocation i {
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+}
+
+
+/*Ends Events List Css*/
