@@ -1,0 +1,52 @@
+.gallery-list-container {
+	clear: both;
+	list-style: outside none none;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+
+.gallery-list-container li {
+	background: #ffffff;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	float: left;
+	height: 300px;
+	margin: 0 1% 20px;
+	overflow: hidden;
+	position: relative;
+	width: 23%;
+}
+
+.gallery-list-container li a,
+.gallery-list-container li a img {
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.gallery-list-container li a {
+	overflow: hidden;
+}
+
+.gallery-list-container li a div {
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.gallery-list-container li a div span {
+	color: rgba(255, 255, 255, 0.9);
+	display: block;
+	font-weight: normal;
+	margin: 100px 0 0;
+	padding: 10px 0;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	text-transform: capitalize;
+}
