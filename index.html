@@ -29,6 +29,8 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
+    <!--Modenizr-->
+    <script src="js/modernizr.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome -->
@@ -37,6 +39,11 @@
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/owl.transitions.css" rel="stylesheet">
+    <!--Direction Aware-->
+    <link rel="stylesheet" href="css/directionaware-style.css">
+    <link rel="stylesheet" href="css/directionaware-nojs.css">
+    <!-- Lghtbox -->
+    <link href="css/lightbox.min.css" rel="stylesheet">
     <!-- Custom -->
     <link href="css/custom.css" rel="stylesheet">
     <!-- Custom -->
@@ -411,7 +418,7 @@
             </div>
         </div>
         <!--Ends Our Works-->
-        <!--Ends Our Works-->
+        <!--Starts Event List -->
         <div class="events-list">
             <div class="container">
                 <h2 class="main-title text-center">Events <span>List</span></h2>
@@ -494,7 +501,69 @@
                 </div>
             </div>
         </div>
-        <!--Ends Our Works-->
+        <!--Ends Events List-->
+
+        <!--Starts Gallery Section-->
+        <div class="gallery">
+            <div class="container">
+                <h2 class="main-title text-center">Gallery <span>Images</span></h2>
+                <div class="title-divider text-center">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <ul class="gallery-list-container">
+                    <li>
+                        <a href="img/gallery-1-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-1.jpg">
+                            <div style="display: block; left: -100%; top: 0px; transition: all 300ms ease 0s;"><span>Journalist Friends,At Guidance Academy, Kolkata </span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-2-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-2.jpg">
+                            <div style="display: block; left: -100%; top: 0px; transition: all 300ms ease 0s;"><span>Social Worker, Burdwan</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-3-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-3.jpg">
+                            <div style="display: block; left: 100%; top: 0px; transition: all 300ms ease 0s;"><span>Prof Abul Kalam & Dr Ainul Hoque,Annual GB Meeting at Durgapur</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-4-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-4.jpg">
+                            <div style="display: block; left: 0px; top: -100%; transition: all 300ms ease 0s;"><span>Md Jahangir Hossain, AGM, SAIL ,General Secretary, SNAP</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-5-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-5.jpg">
+                            <div style="display: block; left: 0px; top: -100%; transition: all 300ms ease 0s;"><span>onab Iqbal Jawed Sb,Principal, Surendranath College, Kolkata </span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-1-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-1.jpg">
+                            <div style="display: block; left: -100%; top: 0px; transition: all 300ms ease 0s;"><span>Journalist Friends,At Guidance Academy, Kolkata </span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-2-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-2.jpg">
+                            <div style="display: block; left: -100%; top: 0px; transition: all 300ms ease 0s;"><span>Social Worker, Burdwan</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gallery-3-big.jpg" data-lightbox="galleryset">
+                            <img src="img/gallery-3.jpg">
+                            <div style="display: block; left: 100%; top: 0px; transition: all 300ms ease 0s;"><span>Prof Abul Kalam & Dr Ainul Hoque,Annual GB Meeting at Durgapur</span></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Ends Gallery Section-->
+
     </main>
     <!--Ends Main Content Section-->
 
@@ -545,6 +614,19 @@
         });
     </script>
     <!--Ends Script for Slogan Toggle -->
+    <!--Start Script For Direction Aware -->
+    <script src="js/directionaware-hoverdir.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.gallery-list-container li ').each(function () {
+                $(this).hoverdir();
+            });
+        });
+    </script>
+    <!--Ends Script For Direction Aware -->
+    <!--Starts Script For Lightbox -->
+    <script src="js/lightbox.min.js"></script>
+    <!--Ends Script For Lightbox -->
 </body>
 
 </html>
